@@ -1,0 +1,37 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Marcellus SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Marcellus SC'), local('MarcellusSC-Regular'), url(https://web.archive.org/web/20170417083310im_/http://fonts.gstatic.com/s/marcellussc/v4/_jugwxhkkynrvsfrxVx8gT0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Marcellus SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Marcellus SC'), local('MarcellusSC-Regular'), url(../assets/_jugwxhkkynrvsfrxVx8gegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/*
+     FILE ARCHIVED ON 08:33:10 Apr 17, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:01:12 Sep 20, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.685
+  exclusion.robots: 0.026
+  exclusion.robots.policy: 0.014
+  esindex: 0.011
+  cdx.remote: 27.887
+  LoadShardBlock: 201.364 (6)
+  PetaboxLoader3.datanode: 149.766 (7)
+  PetaboxLoader3.resolve: 100.848 (2)
+  load_resource: 104.763
+*/
