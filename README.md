@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Breakup Recovery Guide - Preservation Project
 
 **Choose your language:** [🇺🇸 English](#english) | [🇪🇸 Español](#español) | [🇧🇷 Português](#português)
@@ -7,6 +8,9 @@
 ## English
 
 ### About
+=======
+# About
+>>>>>>> 03c09db38ead627cf5931c77e04515d17164a7f9
 
 Originally hosted on `breakuprecoveryguide.com`, this website was really important to me, as it was fundamentally different from most of the breakup advice websites I'd encountered.
 
@@ -16,7 +20,11 @@ When I went through a breakup from a 10-year relationship, it hit me really hard
 
 Unfortunately, the website simply disappeared one day. I believe the creator vanished or something happened to them, because it never came back online. All we had left were some archived pages scattered across the Internet Archive.
 
+<<<<<<< HEAD
 ### Problems
+=======
+## Problems
+>>>>>>> 03c09db38ead627cf5931c77e04515d17164a7f9
 
 The archived version had significant issues that made it nearly unusable:
 - Broken CSS and formatting that made pages hard to read
@@ -27,7 +35,11 @@ The archived version had significant issues that made it nearly unusable:
 
 More importantly, even if someone managed to find these archived pages, they'd have to navigate through the Internet Archive's interface and deal with all the formatting problems that made the content difficult to access when people needed it most.
 
+<<<<<<< HEAD
 ### Solution
+=======
+## Solution
+>>>>>>> 03c09db38ead627cf5931c77e04515d17164a7f9
 
 I decided to scrape all the pages I could find from the archive and restore this website to its original functionality. This preservation project involved:
 
@@ -49,7 +61,11 @@ I decided to scrape all the pages I could find from the archive and restore this
 - Ensured the website works consistently across different devices and browsers
 - Maintained the multilingual support that made this resource accessible to Spanish and Portuguese speakers
 
+<<<<<<< HEAD
 ### Why This Mattered
+=======
+## Why This Mattered
+>>>>>>> 03c09db38ead627cf5931c77e04515d17164a7f9
 
 This website represented something rare: honest, detailed guidance that didn't minimize the real pain of relationship loss. The creator understood that breakups—especially from long-term relationships—can be genuinely devastating, and they created content that met people where they were emotionally rather than where society thought they should be.
 
@@ -61,6 +77,7 @@ The original creator put tremendous care into helping people heal. The least I c
 
 ---
 
+<<<<<<< HEAD
 ## Español
 
 ### Acerca de Esta Iniciativa
@@ -175,6 +192,8 @@ O criador original colocou tremendo cuidado em ajudar as pessoas a se curar. O m
 
 ---
 
+=======
+>>>>>>> 03c09db38ead627cf5931c77e04515d17164a7f9
 *This preservation project was completed with respect for the original creator's work and intent. The content remains unchanged, with only technical improvements to ensure accessibility and functionality.*
 
 **Project restoration by [@lucasvhol](https://github.com/lucasvhol)**

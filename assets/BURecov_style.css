@@ -362,11 +362,11 @@ header {
 
 
 #languages a:link,#languages a:visited {
-	
+
 	text-decoration:none;
 	text-align: center;
 	background-color: #cba787;
-	color: #e7ceb3;
+	color: #493d13;
 	border-radius: 	0.5em 0.5em 0 0em;
 	border-top: 	0.1em solid #c29470;
 	border-right: 	0.1em solid #c29470;
@@ -455,12 +455,12 @@ header {
 
 #languages a:hover {
 	background-color:#ebd3b6;
-	-webkit-transition:	background-color 0.3s ease-in-out;  
-	-moz-transition:	background-color 0.3s ease-in-out;  
-	-o-transition:		background-color 0.3s ease-in-out;  
+	-webkit-transition:	background-color 0.3s ease-in-out;
+	-moz-transition:	background-color 0.3s ease-in-out;
+	-o-transition:		background-color 0.3s ease-in-out;
 	transition:			background-color 0.3s ease-in-out;
-	
-	color:#b78c6a;
+
+	color:#622802;
 	-webkit-transition:	color 0.3s ease-in-out;  
 	-moz-transition:	color 0.3s ease-in-out;  
 	-o-transition:		color 0.3s ease-in-out;  
