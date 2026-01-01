@@ -17,6 +17,9 @@ return myData;
 
 <!DOCTYPE html>
 
+<!--[if lte IE 9]> 
+ <meta http-equiv="refresh" content="0;URL=../../outdated.html" />
+<![endif]-->
 <html lang="en">
 <!--<![endif]-->
 <head>
@@ -55,7 +58,7 @@ $(document).on({
 <link href="/web/20170502150324cs_/http://breakuprecoveryguide.com/contact.css" rel="STYLESHEET" type="text/css">
 <script src="../js/gen_validatorv31.js" type="text/javascript"></script>
 <script src="../js/fg_captcha_validator.js" type="text/javascript"></script>
-<meta content="1000s of breakup stories and recovery advice for each. Searchable. Or get personal advice for your case." name="description">
+<link href="/web/20170502150324im_/http://breakuprecoveryguide.com/favicon.ico" rel="shortcut icon" type="image/x-icon"><meta content="https://web.archive.org/web/20170502150324im_/http://www.breakuprecoveryguide.com/images/t_f1.jpg" property="og:image"><meta content="1000s of breakup stories and recovery advice for each. Searchable. Or get personal advice for your case." name="description">
 </meta></meta></link></link></head>
 <body class="lang_english"><div id="archive-notice" style="background: #f8f9fa; border: 1px solid #dee2e6; color: #495057; padding: 10px; margin: 10px auto; text-align: center;"><strong>Archive Notice:</strong> This is a preserved version of breakuprecoveryguide.com for educational purposes.<br>Project preservation and restoration made by <a href="https://github.com/lucasvhol" target="_blank">@lucasvhol</a></div>
 <header>
@@ -289,10 +292,130 @@ $('#searchText').keypress(function() {
 </div>
 </article>
 <article id="ContactForm">
-<div style="background: #f8f9fa; border: 2px solid #8b6239; border-radius: 0.7em; color: #493d13; padding: 2em; margin: 2em auto; max-width: 600px; text-align: center; font-size: 1.1em;">
-<p style="margin: 0 0 1em 0;"><strong>Contact Form Unavailable</strong></p>
-<p style="margin: 0; line-height: 1.6;">This archived version of the site does not support message submissions. The original breakuprecoveryguide.com is no longer active. However, you can still read through thousands of previous messages and responses using the search function above.</p>
+<script type="text/javascript">
+ function getFile(){
+   document.getElementById("photo").click();
+ }
+ 
+	
+ function sub(obj){
+    var file = obj.value;
+    var fileName = file.split("\\");
+	
+	var newName = "Attached:<br>"+fileName[fileName.length-1]+"<br>(click again to change)";
+	document.getElementById("measureTest").innerHTML = newName;
+	var test = document.getElementById("measureTest");
+	var newWidth = (test.clientWidth + 1) + "px";
+	
+	
+	
+    document.getElementById("myButton").innerHTML = newName;
+	document.getElementById("myButton").style.width = newWidth;
+    document.myForm.submit();
+    event.preventDefault();
+  }
+  
+  
+</script>
+<div id="measureTest">dfdfdfdfs</div>
+<!-- Form Code Start -->
+<form accept-charset="UTF-8" action="/web/20170502150324/http://breakuprecoveryguide.com/Comments" enctype="multipart/form-data" id="contactus" method="post">
+<fieldset>
+<input id="submitted" name="submitted" type="hidden" value="1"/>
+<input name="idc95ec70e2903dd46f659" type="hidden" value="dc42064b47696742a81c286aebc90861"/>
+<input class="spmhidip" name="sp5cdcef6734d2437ea361569d73570786" type="text"/>
+<div><span class="error"></span></div>
+<div id="formContent">
+<div class="container">
+<input id="name" maxlength="50" name="name" placeholder="(Name. Real, made-up, nickname.)" type="text" value=""/><br>
+<span class="error" id="contactus_name_errorloc"></span>
+</br></div>
+<div class="container">
+<input id="location" maxlength="50" name="location" placeholder="(Where are you?)" type="text" value=""/><br/>
+<span class="error" id="contactus_location_errorloc"></span>
 </div>
+<div class="container">
+<input id="email" maxlength="50" name="email" placeholder="(Email, if you want a response.)" type="text" value=""/><br/>
+<span class="error" id="contactus_email_errorloc"></span>
+</div>
+<div class="container">
+<span class="error" id="contactus_message_errorloc"></span>
+<textarea id="message" name="message" placeholder="(Message)"></textarea>
+</div>
+<div class="container" id="publicOrPrivate">
+<input checked="" id="publicDisplay" name="publicOrPrivate" type="radio" value="publicDisplay"/><label for="publicDisplay">Message for Public Display </label>
+<input id="privateDisplay" name="publicOrPrivate" type="radio" value="privateDisplay"/><label for="privateDisplay">Private Message, Not for Display</label>
+<span class="error" id="contactus_publicOrPrivate_errorloc"></span>
+</div>
+<div class="container">
+<div id="myButton" onclick="getFile()">Attach Drawing<br/>(only if you want)</div>
+<div style="height: 0px;width: 0px; overflow:hidden;">
+<input id="photo" name="photo" onchange="sub(this)" type="file" value="Upload"/><br>
+</br></div>
+<span class="error" id="contactus_photo_errorloc"></span>
+</div>
+<div id="formBottomOuter"><div id="formBottomInner">
+<div class="container" id="captcontainer">
+<span class="error" id="contactus_scaptcha_errorloc"></span>
+<div class="capPadder">
+<div id="captReadAndImg">
+<img alt="Captcha image" id="scaptcha_img" src="../images/show-captcha.php"/>
+<div id="readBox">
+<a href="javascript: refresh_captcha_img();">
+<div class="short_explanation">Hard to read?<br/>Click here for new text.</div>
+</a>
+</div>
+</div>
+<input id="scaptcha" name="scaptcha" placeholder="(Human check: please enter the text.)" type="text"/><br>
+</br></div>
+</div>
+<div class="container">
+<input name="Submit" type="submit" value="Send"/>
+</div>
+</div> </div>
+</div>
+</fieldset>
+</form>
+<script type="text/javascript">
+// <![CDATA[
+
+    var frmvalidator  = new Validator("contactus");
+    frmvalidator. EnableOnPageErrorDisplay();
+    frmvalidator. EnableMsgsTogether();
+   frmvalidator.addValidation("name","req","** Any name you want. But we need something... **");
+
+    
+
+    frmvalidator.addValidation("email","email","** Email address must be valid if you want a response **");
+
+    frmvalidator.addValidation("message","maxlen=16000","** Long messages are fine, but more than 16KB is too much!) **");
+	
+	frmvalidator.addValidation("publicOrPrivate","selone","** Please indicate if it's for public display or private to me only. **");
+
+    frmvalidator.addValidation("photo","file_extn=jpg;jpeg;gif;png;bmp","** Sorry, drawings only. Supported file types are: jpg,gif,png,bmp **");
+
+    frmvalidator.addValidation("scaptcha","req","** Human or robot? Try entering the code again. **");
+
+	
+    document.forms['contactus'].scaptcha.validator
+      = new FG_CaptchaValidator(document.forms['contactus'].scaptcha,
+                    document.images['scaptcha_img']);
+
+    function SCaptcha_Validate()
+    {
+        return document.forms['contactus'].scaptcha.validator.validate();
+    }
+
+    frmvalidator.setAddnlValidationFunction("SCaptcha_Validate");
+
+    function refresh_captcha_img()
+    {
+        var img = document.images['scaptcha_img'];
+        img.src = img.src.substring(0,img.src.lastIndexOf("?")) + "?rand="+Math.random()*1000;
+    }
+
+// ]]>
+</script>
 </article>
 </div> <!-- *main* -->
 <div id="bottomNav">
