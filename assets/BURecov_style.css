@@ -356,7 +356,7 @@ header {
 {
 	background-image: url(../images/background_pattern_main.jpg);
 	background-color:#dfc2a4;
-	color:#b78c6a;
+	color:#8b6239;
 	padding-bottom: 0.1em;
 	}
 
@@ -732,7 +732,7 @@ h4 {
 	text-decoration: none;
 	background-color: #none;
 	
-	webkit-column-break-before:always;
+	-webkit-column-break-before:always;
     -moz-column-break-before:always;
     column-break-before:always
 }
@@ -1130,13 +1130,13 @@ img.columnCenterImg.newp {border: 0.2em solid #e7c6a5;}
 	
 footer {
 	width: 100%;
-	color: #B78C6A;
+	color: #8b6239;
 	font-size: 0.7em;
 	text-align: center;
 	margin-bottom: 2em;
 	margin-top: 5.5em;
 	line-height: 1.9em;
-	
+
 
 }
 
@@ -1146,9 +1146,9 @@ footer {
 }
 
 footer a{
-	color: #B78C6A;
+	color: #8b6239;
 	text-decoration: none;
-	border-bottom: 0.1em dotted #B78C6A;
+	border-bottom: 0.1em dotted #8b6239;
 	-webkit-transition:	all 1.0s ease-in-out;  
 	-o-transition:		all 1.0s ease-in-out;  
 	transition:			all 1.0s ease-in-out;
@@ -1380,6 +1380,12 @@ h5.SectionSubHeader {
 .BulletFirstSentence {
     margin-bottom: 0.5em;
     line-height: 1.4;
+}
+
+/* Form accessibility - focus styles for keyboard navigation */
+input:focus, textarea:focus, select:focus, button:focus {
+    outline: 2px solid #8b6239;
+    outline-offset: 2px;
 }
 
 /* Responsive typography improvements */
