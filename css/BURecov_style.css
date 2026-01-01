@@ -1260,7 +1260,7 @@ ul.ReboundList {
 }
 
 .ReboundList li:before {
-    content: "â¢";
+    content: "\2022";
 	padding-right: 0.5em;
 }
 
